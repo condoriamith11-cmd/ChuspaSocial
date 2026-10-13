@@ -382,6 +382,7 @@
 
 | ID | Descripción | Prioridad | Estado |
 |---|---|---|---|
+| RF-029 | Reportar una publicación, comentario o anuncio de libro | Alta | Pendiente |
 | RF-030 | Revisar la cola de reportes | Alta | Pendiente |
 
 #### Criterios de aceptación
@@ -403,9 +404,6 @@
 - **Cuando** selecciona un reporte,
 
 - **Entonces** el sistema muestra la información del reporte para que pueda revisarlo.
-| RF-029 | Reportar una publicación, comentario o anuncio de libro | Alta | Pendiente |
-
-#### Criterios de aceptación
 
 ### RF-029
 
