@@ -387,24 +387,6 @@
 
 #### Criterios de aceptación
 
-### RF-030
-
-**Criterio 1**
-
-- **Dado** que existen reportes abiertos en el sistema,
-
-- **Cuando** un moderador accede a la cola de reportes,
-
-- **Entonces** el sistema muestra los reportes abiertos pendientes de revisión.
-
-**Criterio 2**
-
-- **Dado** que un moderador visualiza la cola de reportes,
-
-- **Cuando** selecciona un reporte,
-
-- **Entonces** el sistema muestra la información del reporte para que pueda revisarlo.
-
 ### RF-029
 
 **Criterio 1**
@@ -422,6 +404,24 @@
 - **Cuando** selecciona un motivo y confirma el reporte,
 
 - **Entonces** el sistema guarda el reporte y notifica que fue registrado correctamente.
+
+### RF-030
+
+**Criterio 1**
+
+- **Dado** que existen reportes abiertos en el sistema,
+
+- **Cuando** un moderador accede a la cola de reportes,
+
+- **Entonces** el sistema muestra los reportes abiertos pendientes de revisión.
+
+**Criterio 2**
+
+- **Dado** que un moderador visualiza la cola de reportes,
+
+- **Cuando** selecciona un reporte,
+
+- **Entonces** el sistema muestra la información del reporte para que pueda revisarlo.
 
 ## Requerimientos No Funcionales
 
