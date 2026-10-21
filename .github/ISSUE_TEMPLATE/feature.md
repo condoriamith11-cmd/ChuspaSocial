@@ -10,10 +10,6 @@ labels: "feat"
 ## Motivación
 ¿Qué problema resuelve?
 
-## Módulo
-
-## Archivo a modificar
-
 ## Criterios de aceptación
 - [ ]
 - [ ]

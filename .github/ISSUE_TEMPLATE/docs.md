@@ -9,10 +9,6 @@ labels: "docs"
 ## ¿Dónde debería estar?
 `docs/nombre-del-archivo.md`
 
-## Módulo
-
-## Archivo a modificar
-
 ## Criterios de aceptación
 - [ ]
 - [ ]

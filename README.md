@@ -212,4 +212,4 @@ El proyecto usa el **Forking Workflow**: un issue = una rama = un PR hacia `dev`
 Lee [CONTRIBUTING.md](CONTRIBUTING.md) antes de empezar.
 
 ## Licencia
-Este proyecto está licenciado bajo la [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+MIT — ver [LICENSE](LICENSE)

@@ -6,10 +6,6 @@ labels: "security"
 
 ## Descripción
 
-## Módulo
-
-## Archivo a modificar
-
 ## Tipo
 - [ ] Análisis de vulnerabilidades
 - [ ] Configuración de herramienta

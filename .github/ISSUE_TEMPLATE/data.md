@@ -4,10 +4,6 @@ about: "Análisis de métricas del proyecto"
 labels: "data"
 ---
 
-## Módulo
-
-## Archivo a modificar
-
 ## ¿Qué se quiere analizar?
 
 ## Fuente de datos

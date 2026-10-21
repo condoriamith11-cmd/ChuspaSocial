@@ -19,9 +19,5 @@ labels: "bug"
 - OS:
 - Versión del proyecto:
 
-## Módulo
-
-## Archivo a modificar
-
 ## Evidencia
 [Capturas, logs]
