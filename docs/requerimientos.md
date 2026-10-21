@@ -11,6 +11,7 @@
 | RF-006 | Eliminar una publicación propia | Alta | Pendiente |
 | RF-007 | Ver el muro de una materia | Alta | Pendiente |
 | RF-008 | Cargar más publicaciones | Media | Pendiente |
+| RF-004 | Adjuntar imagenes a una publicacion | Media | Pendiente |
 
 ### Módulo Tags
 
@@ -91,6 +92,7 @@
 
 | ID | Descripción | Prioridad | Estado |
 |---|---|---|---|
+| RF-011 | Eliminar un comentario propio | Media | Pendiente |
 | RF-012 | Ver los comentarios de una publicación | Alta | Pendiente |
 
 #### Criterios de aceptación
@@ -106,6 +108,17 @@
 - **Dado** un usuario que visualiza una publicación sin comentarios,
 - **Cuando** consulta la publicación,
 - **Entonces** el sistema muestra el área de comentarios sin entradas y permite identificar que aún no existen comentarios.
+### RF-011
+
+**Criterio 1**
+- **Dado** un usuario autenticado que ha realizado un comentario en una publicación,
+- **Cuando** selecciona la opción de eliminar su comentario y confirma la acción,
+- **Entonces** el sistema debe remover el comentario de la publicación y actualizar el contador de comentarios.
+
+**Criterio 2**
+- **Dado** un usuario autenticado que navega por los comentarios de una publicación,
+- **Cuando** visualiza un comentario que pertenece a otro usuario,
+- **Entonces** el sistema no debe mostrar la opción de eliminar dicho comentario.
 ### Reacciones
 
 | ID | Descripción | Prioridad | Estado |
@@ -1004,3 +1017,16 @@
 |---|---|
 | RS-001 | El cron de Moodle debe estar activo y ejecutarse periódicamente para procesar las notificaciones y tareas programadas de ChuspaSocial. Si no se cumple, estas funciones pueden retrasarse o no ejecutarse. |
 | RS-003 | La funcionalidad de tags de Moodle debe estar habilitada mediante el ajuste `usetags`. Si no se cumple, las funciones de etiquetado y filtrado por tags de ChuspaSocial pueden no estar disponibles o funcionar incorrectamente. |
+### RF-004
+
+**Criterio 1**
+
+**Dado** un usuario autenticado que está creando o editando una publicación en el muro,
+**Cuando** selecciona adjuntar imágenes en formatos válidos (`.jpg`, `.png`, `.webp`) y la cantidad no supera el límite máximo $N$ configurado,
+**Entonces** el sistema debe permitir adjuntar y previsualizar las imágenes en la publicación.
+
+**Criterio 2**
+
+**Dado** un usuario autenticado en la pantalla de crear/editar publicación,
+**Cuando** intenta adjuntar un archivo con un formato no permitido o supera la cantidad máxima $N$ de imágenes permitidas,
+**Entonces** el sistema debe mostrar un mensaje de error restrictivo y evitar que se suban las imágenes.
